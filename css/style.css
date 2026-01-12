@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     font-family: sans-serif;
     scroll-behavior: smooth;
@@ -33,7 +32,7 @@ ul {
 }
 
 .pad:hover {
-    border: #fff solid ;
+    border: #fff solid;
     border-radius: 100%;
 }
 
@@ -117,7 +116,7 @@ ul {
     right: 10px;
     font-size: 11px;
     color: #fff;
-    
+
 }
 
 .skills-span1::after {
@@ -220,7 +219,8 @@ h6 {
     background: transparent !important;
     color: #343434 !important;
 }
-.about-buttom1{
+
+.about-buttom1 {
     border-radius: 5px;
     padding: 5px 20px;
     transition: all .5s;
@@ -231,71 +231,58 @@ h6 {
     text-decoration: none;
     cursor: pointer;
 }
-.about-buttom{
+
+.about-buttom {
     border-radius: 5px;
     padding: 5px 20px;
     transition: all .5s;
     border: #000 solid 2px;
 }
-.about-buttom:hover{
-    background-color: #fff !important;;
+
+.about-buttom:hover {
+    background-color: #fff !important;
+    ;
     color: #1c1c1c !important;
-    
+
 }
-.about-buttom1:hover{
-   
+
+.about-buttom1:hover {
+
     color: #fff !important;
     background-color: #1c1c1c !important;
 }
 
-.icon-hover:hover{
+.icon-hover:hover {
     background-color: black;
     color: #fff;
 }
 
 /* Entrance animations for hero */
-.anim-hidden{
+.anim-hidden {
     opacity: 0;
     transform: translateY(20px);
 }
 
-.anim-in{
+.anim-in {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 700ms ease-out, transform 700ms ease-out;
 }
 
 /* small utility to stagger children */
-.stagger-children > * {
+.stagger-children>* {
     opacity: 0;
     transform: translateY(10px);
 }
 
-.stagger-children.in > * {
+.stagger-children.in>* {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 600ms ease-out, transform 600ms ease-out;
 }
 
 /* Show full navbar on small screens (mobile) */
-@media (max-width: 991.98px) {
-  .navbar-collapse.collapse {
-    display: block !important;
-    visibility: visible !important;
-    height: auto !important;
-  }
-  .navbar-toggler {
-    display: none !important;
-  }
-  .navbar .navbar-nav {
-    flex-direction: column;
-    gap: 8px;
-  }
-  .navbar-nav .nav-link {
-    padding: .5rem 1rem;
-  }
-}
-=======
+
 body {
     font-family: sans-serif;
     scroll-behavior: smooth;
@@ -330,7 +317,7 @@ ul {
 }
 
 .pad:hover {
-    border: #fff solid ;
+    border: #fff solid;
     border-radius: 100%;
 }
 
@@ -414,7 +401,7 @@ ul {
     right: 10px;
     font-size: 11px;
     color: #fff;
-    
+
 }
 
 .skills-span1::after {
@@ -517,7 +504,8 @@ h6 {
     background: transparent !important;
     color: #343434 !important;
 }
-.about-buttom1{
+
+.about-buttom1 {
     border-radius: 5px;
     padding: 5px 20px;
     transition: all .5s;
@@ -528,47 +516,51 @@ h6 {
     text-decoration: none;
     cursor: pointer;
 }
-.about-buttom{
+
+.about-buttom {
     border-radius: 5px;
     padding: 5px 20px;
     transition: all .5s;
     border: #000 solid 2px;
 }
-.about-buttom:hover{
-    background-color: #fff !important;;
+
+.about-buttom:hover {
+    background-color: #fff !important;
+    ;
     color: #1c1c1c !important;
-    
+
 }
-.about-buttom1:hover{
-   
+
+.about-buttom1:hover {
+
     color: #fff !important;
     background-color: #1c1c1c !important;
 }
 
-.icon-hover:hover{
+.icon-hover:hover {
     background-color: black;
     color: #fff;
 }
 
 /* Entrance animations for hero */
-.anim-hidden{
+.anim-hidden {
     opacity: 0;
     transform: translateY(20px);
 }
 
-.anim-in{
+.anim-in {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 700ms ease-out, transform 700ms ease-out;
 }
 
 /* small utility to stagger children */
-.stagger-children > * {
+.stagger-children>* {
     opacity: 0;
     transform: translateY(10px);
 }
 
-.stagger-children.in > * {
+.stagger-children.in>* {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 600ms ease-out, transform 600ms ease-out;
@@ -581,15 +573,17 @@ h6 {
         visibility: visible !important;
         height: auto !important;
     }
+
     .navbar-toggler {
         display: none !important;
     }
+
     .navbar .navbar-nav {
         flex-direction: column;
         gap: 8px;
     }
+
     .navbar-nav .nav-link {
         padding: .5rem 1rem;
     }
 }
->>>>>>> 953815f (add responsive navbar styles for mobile screens)
