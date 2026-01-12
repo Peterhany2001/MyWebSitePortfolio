@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
